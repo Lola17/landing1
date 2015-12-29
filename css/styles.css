@@ -28,3 +28,178 @@ ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
 * { outline:none;}
 
 #mainwrapper { position:relative; overflow:hidden; width:100%; min-width:840px; background:#fff;}
+
+/* font-family: "OpenSansLight"; */
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+    url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "OpenSansBold"; */
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+    url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* font-family: "OpenSansSemiBold"; */
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"),
+    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+
+
+body {
+  /*  Delete when merge */
+  font:normal 18px/28px Open Sans, Helvetice, Arial, sans-serif;
+/*  end delete */
+}
+
+
+.buy_China_wrapper {
+  background: url(../images/section_2_bg.png) no-repeat 0 200px;
+  background-size: contain;
+  
+}
+
+.buy_China {
+  width: 960px;
+  margin: 0 auto;
+
+}
+
+.buy_China h2 {
+  padding: 90px 0 40px 0;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+/*  font-family: Open Sans;*/
+  font-weight: normal;
+  color: #333;
+  font-size: 61px;
+  line-height: 81px;
+}
+
+.buy_China h2:after {
+  content: "";
+  position: absolute;
+  width: 455px;
+  height: 11px;
+  bottom: 0;
+  left: 250px;
+  background: url(../images/icon_line.png) no-repeat;
+}
+
+.buy_China_plus,
+.buy_China_minus {
+  padding: 40px 0;
+  width: 460px;
+  float: left;
+}
+
+.buy_China_minus {
+  padding-left: 40px; 
+}
+
+.buy_China_plus figure,
+.buy_China_minus figure {
+  margin: 18px 0;
+  text-align: center;
+}
+
+.buy_China_plus figcaption,
+.buy_China_minus figcaption {
+  padding-top: 45px;
+  font-size: 26px;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.buy_China_minus figcaption {
+  font-weight: normal;
+}
+
+.buy_China_plus ul,
+.buy_China_minus ul {
+  position: relative;
+  padding-top: 40px;
+}
+
+.buy_China_plus ul:before,
+.buy_China_minus ul:before {
+  content: "";
+  position: absolute;
+  width: 460px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  background: url(../images/icon_sum.png) no-repeat;
+}
+
+.buy_China_plus li,
+.buy_China_minus li {
+  position: relative;
+  padding-left: 25px;
+  font-size: 18px;
+  line-height: 38px;
+  font-weight: 500;
+}
+
+.buy_China_plus li:before,
+.buy_China_minus li:before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 10px;
+  top: 14px;
+  left: 0;
+  background-color: #ec2026;
+}
+
+.buy_China_plus li:last-child,
+.buy_China_minus li:last-child {
+  font-weight: bold;
+}
+
+.buy_China_plus li:last-child span,
+.buy_China_minus li:last-child span {
+  display: block;
+  text-transform: uppercase;
+  color: #ec2026;
+}
+
+.buy_China_plus li:last-child::before,
+.buy_China_minus li:last-child::before {
+  display: none;
+}
+
+.buy_China a {
+  display: block;
+  margin: 0 auto;
+  width: 440px;
+  color: #ec2026;
+  font-size: 19px;
+  line-height: 40px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #ec2026;
+  box-sizing: border-box;
+}
