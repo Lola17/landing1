@@ -167,3 +167,91 @@ body {
   border: 2px solid #ec2026;
   box-sizing: border-box;
 }
+/*begin block_8*/
+.block_8{
+	text-align: center;
+	background-image: url(../images/bg_block_8.jpg);
+	background-size: cover;
+}
+.block_8 h1, .block_8 h3{
+	color: #ffffff;
+}
+.block_8 h1{
+	text-transform: uppercase;
+	font: normal 61px/28px Open Sans, Helvetice, Arial, sans-serif;
+}
+.block_8 h3{
+	font: normal 38px/28px Open Sans, Helvetice, Arial, sans-serif;
+}
+.block_8_Form{
+	margin: 20px auto;
+	padding: 20px;
+	width: 440px;
+}
+.fieldContainer{
+	padding: 30px 10px;
+}
+form#signupForm {
+	background-color: rgba(0, 0, 0, 0.47);
+	margin: 0 0 100px 0;
+}
+.formRow{
+	height:35px;
+	padding:10px;
+	position:relative;
+}
+.label{
+	float:left;
+	padding:0 20px 0 0;
+	text-align:right;
+	width:70px;
+}
+label{
+	font-family: 'Open Sans', sans-serif;
+	font-size:11px;
+	letter-spacing:1px;
+	line-height:35px;
+}
+
+.field{
+	float:left;
+	width: 100%;
+}
+.field input{
+	border: 1px solid white;
+	color: #666666;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	padding: 4px 0 4px 20px;
+	width: 90%;
+	height: 26px;
+}
+.signupButton{
+	text-align:left;
+	padding:30px 0 10px 15px;
+}
+#submit{
+	border: 1px solid red;
+	cursor: pointer;
+	height: 30px;
+	background: red;
+	font-size: 15px;
+	color: white;
+	padding: 0 20px;
+}
+#submit:hover{
+	background-color:#CA2C2C;
+	border:1px solid white;
+}
+
+input:hover,
+input:focus{
+	border: 1px solid red;
+	cursor: pointer;
+}
+a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+/*end block_8*/
