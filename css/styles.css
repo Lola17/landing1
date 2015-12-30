@@ -30,23 +30,18 @@ ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
 #mainwrapper { position:relative; overflow:hidden; width:100%; min-width:840px; background:#fff;}
 
 body {
-  /*  Delete when merge */
   font:normal 18px/28px Open Sans, Helvetice, Arial, sans-serif;
-/*  end delete */
 }
-
 
 .buy_China_wrapper {
   background: url(../images/section_2_bg.png) no-repeat 0 200px;
   background-size: contain;
-  
 }
 
 .buy_China {
   width: 960px;
   margin: 0 auto;
   padding-bottom: 30px;
-
 }
 
 .buy_China h2 {
@@ -57,10 +52,8 @@ body {
   font-weight: normal;
   color: #333;
   font-size: 61px;
-  line-height: 81px;
-  
+  line-height: 81px; 
 }
-
 
 .buy_China h2:after {
   content: "";
@@ -110,8 +103,6 @@ body {
   background: url(images/icon_red_border.png) no-repeat;
   transform: rotate(180deg);
 }
-
-
 
 .buy_China_plus figcaption,
 .buy_China_minus figcaption {
