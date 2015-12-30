@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html { padding:0; margin:0;}
-body { position:relative; margin:0; padding:0; color:#666; font:normal 18px/28px Helvetice, Arial, sans-serif; background:#fff;}
+body { position:relative; margin:0; padding:0; color:#666; font:500 18px/28px Helvetice, Arial, sans-serif; background:#fff;}
 .clr:after { content:""; display:block; height:0; overflow:hidden; font-size:0; line-height:0; clear:both;}
 
 p { margin:0; padding:10px 0;}
@@ -28,42 +28,6 @@ ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
 * { outline:none;}
 
 #mainwrapper { position:relative; overflow:hidden; width:100%; min-width:840px; background:#fff;}
-
-/* font-family: "OpenSansLight"; */
-@font-face {
-    font-family: "Open Sans";
-    src: url("../fonts/OpenSansLight/OpenSansLight.eot");
-    src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
-    url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-/* font-family: "OpenSansBold"; */
-@font-face {
-    font-family: "Open Sans";
-    src: url("../fonts/OpenSansBold/OpenSansBold.eot");
-    src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
-    url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: bold;
-}
-
-/* font-family: "OpenSansSemiBold"; */
-@font-face {
-    font-family: "Open Sans";
-    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
-    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"),
-    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 500;
-}
-
-
-
 
 body {
   /*  Delete when merge */
