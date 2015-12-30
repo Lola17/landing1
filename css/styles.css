@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html { padding:0; margin:0;}
-body { position:relative; margin:0; padding:0; color:#666; font:500 18px/28px Helvetice, Arial, sans-serif; background:#fff;}
+body { position:relative; margin:0; padding:0; color:#666; font:normal 18px/28px Helvetice, Arial, sans-serif; background:#fff;}
 .clr:after { content:""; display:block; height:0; overflow:hidden; font-size:0; line-height:0; clear:both;}
 
 p { margin:0; padding:10px 0;}
@@ -28,6 +28,42 @@ ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
 * { outline:none;}
 
 #mainwrapper { position:relative; overflow:hidden; width:100%; min-width:840px; background:#fff;}
+
+/* font-family: "OpenSansLight"; */
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+    url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "OpenSansBold"; */
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+    url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* font-family: "OpenSansSemiBold"; */
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"),
+    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+
 
 body {
   /*  Delete when merge */
@@ -166,4 +202,81 @@ body {
   text-decoration: none;
   border: 2px solid #ec2026;
   box-sizing: border-box;
+}
+/*SECTION 3*/
+.advantages{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.advantages h2{
+	padding: 120px 0 130px;
+	font-family: "OpenSansLight", sans-serif;
+	font-size: 61px;
+	line-height: 1.25em;
+	font-weight: normal;
+	color: #333333;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.advantages h2:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 12px;
+	padding-top: 35px;
+	background: url("../images/icon_line.png") center bottom no-repeat;
+}
+
+.advantages li{
+	position: relative;
+	padding: 100px 0 115px;
+	padding-right: 320px;
+}
+
+.advantages .img{
+	position: relative;
+	width: 352px;
+	height: 352px;
+	padding: 38px 0 0 12px;
+	background: #f0f0f0;
+	border-radius: 100%;
+	box-sizing: border-box;
+}
+
+.advantages .img:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: block;
+	width: 132px;
+	height: 132px;
+	background: linear-gradient(to top, #c61d00, #ef594f);
+	border-radius: 100%;
+}
+
+.advantages .img:after{
+	content: "";
+	position: absolute;
+	bottom: -21px;
+	display: block;
+	height: 42px;
+	margin-left: 66px;
+	margin-bottom: 66px;
+	background: url("../images/icons.png") no-repeat;
+}
+
+.advantages .factory:after{
+	width: 44px;
+	left: -22px;
+	background-position: 0 0;
+}
+
+.advantages img{
+	display: block;
+	width: 290px;
+	height: 290px;
+	border-radius: 100%;	
 }
