@@ -28,3 +28,80 @@ ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
 * { outline:none;}
 
 #mainwrapper { position:relative; overflow:hidden; width:100%; min-width:840px; background:#fff;}
+.clear{
+    clear: both;
+}
+figure{
+    width: auto;
+    position:relative;
+
+}
+.figure_7_wrapper h2{
+    display: block;
+    z-index: 2;
+    font-size: 60px;
+    line-height: 120px;
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+
+}
+.figure_7_wrapper h2:after{
+    content: "";
+    background-image: url("../images/red_line.png");
+    width: 455px;
+    height: 11px;
+    display: block;
+    margin: 0 auto;
+}
+
+.figure_7_wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+.sacura{
+    background-image: url("../images/sakura_75.png");
+    display: block;
+    width: 512px;
+    height: 693px;
+    position: absolute;
+    top:38px;
+    right:0;
+}
+
+
+.sertificat_wrapper{
+    width: 850px;
+    margin: 0 auto;
+    z-index: 3;
+}
+.sertificat_wrapper .sertificat_1 {
+    background-image: url("../images/sert_1.jpg");
+}
+.sertificat_wrapper .sertificat_2 {
+    background-image: url("../images/sert_2.jpg");
+}
+.sertificat_wrapper .sertificat_3 {
+    background-image: url("../images/sert_3.jpg");
+}
+.sertificat_wrapper .s{
+    margin-left: 50px;
+    display: block;
+    width: 241px;
+    height: 340px;
+    float: left;
+    text-align: center;
+    background-repeat: no-repeat;
+    border: -webkit-box-shadow: -2px 12px 52px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 12px 52px -13px rgba(0,0,0,0.75);
+    box-shadow: -2px 12px 52px -13px rgba(0,0,0,0.75);;
+}
+.sertificat_wrapper .s:first-child{
+    margin: 0;
+}
+.background_town{
+    position:relative;
+    background-image: url("../images/background_town.png");
+
+
+}
